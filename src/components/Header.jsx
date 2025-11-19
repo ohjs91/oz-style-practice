@@ -1,19 +1,14 @@
 import styled from "styled-components";
+import { flex, font } from "../styled/mixin.js";
 const HeaderContainer = styled.header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  ${flex({ justify: "space-between", align: "center" })}
   padding: 10px 20px;
   background-color: black;
 `;
 const MenuList = styled.ul`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-
+  ${flex({ justify: "center", align: "center", gap: "20px" })}
   li {
-    font-size: 16px;
+    ${font({ size: "16px" })}
     list-style: none;
   }
 `;
