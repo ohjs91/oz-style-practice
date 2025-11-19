@@ -2,7 +2,6 @@ import "./App.scss";
 import { contents } from "./assets/data/data";
 import Content from "./components/Content";
 import Header from "./components/Header";
-
 function App() {
   return (
     <main>
